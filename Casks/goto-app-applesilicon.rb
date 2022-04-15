@@ -10,4 +10,6 @@ cask 'goto-app-applesilicon' do
   app 'GoTo.app'
 end
 
-uninstall quit: 'com.logmein.goto'
+  uninstall quit: 'com.logmein.goto'
+end
+
