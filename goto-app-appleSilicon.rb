@@ -1,4 +1,4 @@
-ask 'goto-app-applesilicon' do
+cask 'goto-app-applesilicon' do
   version "3.24.0.1"
   sha256 :no_check
 
