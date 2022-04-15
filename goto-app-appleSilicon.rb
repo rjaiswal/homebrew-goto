@@ -1,6 +1,6 @@
 cask 'goto-app-applesilicon' do
   version '3.24.0.1'
-  sha256 '2e3a65ca94ac2c1f644b418f2a04585220fd7bdb1fcd1c8da7c555ffaf87ec08'
+  sha256 '9624c45f0389da77219fb0581322b1dd466741bbd101c46a3e6cb4adbfc2c46b'
 
   url 'https://goto-desktop.goto.com/GoTo-arm64.dmg'
   name 'GoTo'
