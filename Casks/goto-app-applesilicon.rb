@@ -11,7 +11,8 @@ cask 'goto-app-applesilicon' do
 end
 
 app "GoTo.app"
-uninstall quit: "GoTo"
+
+uninstall quit: 'com.logmein.goto'
 
   zap trash: [
     "~/Library/Application Support/GoTo"
