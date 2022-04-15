@@ -1,11 +1,19 @@
 cask 'goto-app-intel' do
-  version '3.24.0.1'
-  sha256 '2e3a65ca94ac2c1f644b418f2a04585220fd7bdb1fcd1c8da7c555ffaf87ec08'
+ version '3.24.0'
+  sha256 :no_check
 
   url 'https://goto-desktop.goto.com/GoTo.dmg'
   name 'GoTo'
   desc 'VoIP Application'
   homepage 'https://www.goto.com/'
 
+   livecheck do
+   skip "No version information available"
+  end
+
+
   app 'GoTo.app'
+
+  uninstall quit: 'com.logmein.goto'
+
 end
