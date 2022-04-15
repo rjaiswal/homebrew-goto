@@ -13,5 +13,3 @@ end
 app "GoTo.app"
 
 uninstall quit: 'com.logmein.goto'
-
-end
