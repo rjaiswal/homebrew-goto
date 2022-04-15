@@ -8,8 +8,7 @@ cask 'goto-app-applesilicon' do
   homepage 'https://www.goto.com/'
 
   app 'GoTo.app'
-end
 
   uninstall quit: 'com.logmein.goto'
-end
 
+end
