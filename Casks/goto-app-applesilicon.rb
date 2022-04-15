@@ -14,5 +14,4 @@ app "GoTo.app"
 
 uninstall quit: 'com.logmein.goto'
 
-  zap trash: "~/Library/Application Support/GoTo"
 end
